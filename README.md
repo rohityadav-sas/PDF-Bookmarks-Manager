@@ -8,7 +8,7 @@ A Node.js tool to edit PDF metadata and create bookmarks using Sejda API.
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Bookmarks.json Format Guide](#bookmarksjson-format-guide)
+- [Bookmarks Format Guide](#bookmarksjson-format-guide)
   - [Explanation](#explanation)
   - [File Structure](#file-structure)
   - [Preview](#preview)
@@ -71,7 +71,7 @@ Place the required files in the input folder:
 
 - **bookmarks.json**: Defines the bookmarks hierarchy (title, page numbers, and parent-child relationships).
 
-## Bookmarks.json Format Guide
+## Bookmarks Format Guide
 
 ### Explanation:
 

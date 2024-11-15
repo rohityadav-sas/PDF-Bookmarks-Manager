@@ -9,7 +9,7 @@
 		"pdf-bookmarks-creator",
 		"sejda",
 		"pdf-tools",
-		"metadata-editing"
+		"pdf-metadata-editor"
 	],
 	"author": "Rohit Kumar",
 	"license": "ISC",

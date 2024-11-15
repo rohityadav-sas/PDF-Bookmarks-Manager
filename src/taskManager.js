@@ -25,13 +25,7 @@ export async function uploadFile(_s, path, uplid = 'MJTDC') {
 		`https://www.sejda.com/api/files/upload?_s=${_s}`,
 		data,
 		{
-			headers: { ...data.getHeaders(), ...sejdaBaseHeaders },
-			onUploadProgress: (progressEvent) => {
-				const percentage = Math.round(
-					(progressEvent.loaded * 100) / progressEvent.total
-				);
-				console.log(`Upload Progress: ${percentage}%`);
-			}
+			headers: { ...data.getHeaders(), ...sejdaBaseHeaders }
 		}
 	);
 	return response.data;

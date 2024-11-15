@@ -8,39 +8,25 @@
 			"Exercise 1/3",
 			"Exercise 2/6",
 			"Exercise 3/11",
-			"Exercise 4/17",
-			"Exercise 6/19",
-			"Exercise 7/24",
-			"Exercise 8/34",
-			"Exercise 9/43",
-			"Imporant IOE Questions and Answer/47"
+			"Exercise 4/17"
 		]
 	},
 	{
 		"index": "The Z-Transform/51",
 		"children": [
-			"Exercise 10/52",
-			"Exercise 11/70",
-			"Exercise 12/85",
-			"Imporant IOE Questions and Answer/95"
+			"Exercise 5/43",
+			"Exercise 6/52",
+			"Exercise 7/70",
+			"Exercise 8/85"
 		]
 	},
 	{
 		"index": "Partial Differential Equation/108",
 		"children": [
-			"Exercise 13/109",
-			"Exercise 14/113",
-			"Exercise 15/119",
-			"Exercise 16/126",
-			"Imporant IOE Questions and Answer/129"
-		]
-	},
-	{
-		"index": "Fourier Transform/135",
-		"children": [
-			"Exercise 17/136",
-			"Exercise 18/141",
-			"Imporant IOE Questions and Answer/150"
+			"Exercise 9/113",
+			"Exercise 10/119",
+			"Exercise 11/126",
+			"Exercise 12/136"
 		]
 	}
 ]

@@ -11,7 +11,7 @@ export default async function editPdfMetadata() {
 
 	pdfDoc.setTitle(metadata.title);
 	pdfDoc.setAuthor(metadata.author);
-	pdfDoc.setSubject(metadata.title);
+	pdfDoc.setSubject(metadata.subject);
 
 	const updatedPdfBytes = await pdfDoc.save();
 	const outputPath = path.join(

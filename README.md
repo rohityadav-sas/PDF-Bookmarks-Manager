@@ -41,8 +41,17 @@ A Node.js tool to edit PDF metadata and create bookmarks using Sejda API.
    ```
 
 3. Install the required dependencies:
+
    ```sh
    npm install
+   ```
+
+4. Prepare the configuration files according to the [Usage](#usage) section.
+
+5. Run the program:
+
+   ```sh
+   npm start
    ```
 
 ## Usage

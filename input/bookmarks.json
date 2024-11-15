@@ -1,0 +1,46 @@
+[
+	{
+		"index": "Table of Contents/2"
+	},
+	{
+		"index": "Complex Analysis/2",
+		"children": [
+			"Exercise 1/3",
+			"Exercise 2/6",
+			"Exercise 3/11",
+			"Exercise 4/17",
+			"Exercise 6/19",
+			"Exercise 7/24",
+			"Exercise 8/34",
+			"Exercise 9/43",
+			"Imporant IOE Questions and Answer/47"
+		]
+	},
+	{
+		"index": "The Z-Transform/51",
+		"children": [
+			"Exercise 10/52",
+			"Exercise 11/70",
+			"Exercise 12/85",
+			"Imporant IOE Questions and Answer/95"
+		]
+	},
+	{
+		"index": "Partial Differential Equation/108",
+		"children": [
+			"Exercise 13/109",
+			"Exercise 14/113",
+			"Exercise 15/119",
+			"Exercise 16/126",
+			"Imporant IOE Questions and Answer/129"
+		]
+	},
+	{
+		"index": "Fourier Transform/135",
+		"children": [
+			"Exercise 17/136",
+			"Exercise 18/141",
+			"Imporant IOE Questions and Answer/150"
+		]
+	}
+]

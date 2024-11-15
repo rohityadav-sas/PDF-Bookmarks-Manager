@@ -1,0 +1,25 @@
+{
+	"name": "pdf-bookmarks-creator",
+	"version": "1.0.0",
+	"main": "src/main.js",
+	"scripts": {
+		"start": "node src/main.js"
+	},
+	"keywords": [
+		"pdf-bookmarks-creator",
+		"sejda",
+		"pdf-tools",
+		"metadata-editing"
+	],
+	"author": "Rohit Kumar",
+	"license": "ISC",
+	"description": "A Node.js-based tool for editing PDF metadata and creating bookmarks.",
+	"type": "module",
+	"dependencies": {
+		"axios": "^1.7.7",
+		"axios-cookiejar-support": "^5.0.3",
+		"pdf-lib": "^1.17.1",
+		"tough-cookie": "^5.0.0"
+	}
+}
+

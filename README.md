@@ -12,6 +12,7 @@ A Node.js tool to edit PDF metadata and create bookmarks using Sejda API.
   - [Explanation](#explanation)
   - [File Structure](#file-structure)
   - [Preview](#preview)
+- [Dependencies](#dependencies)
 - [License](#license)
 - [Contributing](#contributing)
 
@@ -126,6 +127,13 @@ Place the required files in the input folder:
 This is how the bookmarks will look in the PDF viewer:
 
 ![Bookmarks Preview](./assets/preview.png?raw=true)
+
+## Dependencies
+
+- **axios**: For making HTTP requests to the Sejda API.
+- **axios-cookiejar-support**: To handle cookies for the Sejda API.
+- **tough-cookie**: To handle cookies for the Sejda API.
+- **pdf-lib**: For editing PDF metadata.
 
 ## License
 

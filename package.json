@@ -1,12 +1,12 @@
 {
-	"name": "pdf-bookmarks-creator",
+	"name": "pdf-bookmarks-manager",
 	"version": "1.0.0",
 	"main": "src/main.js",
 	"scripts": {
 		"start": "node src/main.js"
 	},
 	"keywords": [
-		"pdf-bookmarks-creator",
+		"pdf-bookmarks-manager",
 		"sejda",
 		"pdf-tools",
 		"pdf-metadata-editor"

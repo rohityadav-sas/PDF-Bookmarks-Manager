@@ -1,62 +1,57 @@
 ## PDF-Bookmarks-Manager
 
-A Node.js tool to edit PDF metadata and create bookmarks using Sejda API.
+This repository provides tools to manage PDF metadata and bookmarks using either **Node.js** or **Python**.
 
 ## Table of Contents
 
+- [Overviews](#overview)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
+  - [Node.js](#nodejs-prerequisites)
+  - [Python](#python-prequisites)
+- [Configuration](#configuration)
 - [Bookmarks Format Guide](#bookmarksjson-format-guide)
   - [Explanation](#explanation)
   - [File Structure](#file-structure)
   - [Preview](#preview)
+- [Installation](#installation)
+  - [Node.js](#nodejs-implementation)
+  - [Python](#python-implementation)
 - [Dependencies](#dependencies)
+  - [Node.js](#nodejs-dependencies)
+  - [Python](#python-dependencies)
 - [License](#license)
 - [Contributing](#contributing)
+
+## Overview
+
+This repository provides two implementations for managing PDF metadata and bookmarks:
+
+1. **Node.js Implementation**: Uses the Sejda API for processing.
+2. **Python Implementation**: Uses the PyPDF2 library for local processing.
 
 ## Features
 
 - Edit PDF metadata (title, author, subject) with ease.
 - Create and manage bookmarks for PDFs, including hierarchical structures.
+- Node.js version leverages Sejda API for robust processing.
+- Python version performs all operations locally.
 
 ## Prerequisites
+
+### Node.js Prerequisites
 
 - Node.js (v12 or higher)
 - npm (v6 or higher)
 
-## Installation
+### Python Prequisites
 
-1. Clone the repository:
+- Python (v3.8 or higher)
+- pip (v21 or higher)
 
-   ```sh
-   git clone https://github.com/rohityadav-sas/PDF-Bookmarks-Creator.git
-   ```
+## Configuration
 
-2. Navigate to the project directory:
-
-   ```sh
-   cd PDF-Bookmarks-Creator
-   ```
-
-3. Install the required dependencies:
-
-   ```sh
-   npm install
-   ```
-
-4. Prepare the configuration files according to the [Usage](#usage) section.
-
-5. Run the program:
-
-   ```sh
-   npm start
-   ```
-
-## Usage
-
-Place the required files in the input folder:
+Place these required files in the input folder:
 
 - **PDF file**: The PDF file for which you want to edit metadata and create bookmarks.
 - **metadata.json**: Contains metadata such as title, author, and subject for the PDF. The format is as follows:
@@ -69,7 +64,7 @@ Place the required files in the input folder:
   }
   ```
 
-- **bookmarks.json**: Defines the bookmarks hierarchy (title, page numbers, and parent-child relationships).
+- **bookmarks.json**: Bookmark hierarchy with title, page numbers, and parent-child relationships. See the [Bookmarks Format Guide](#bookmarks-format-guide) for details.
 
 ## Bookmarks Format Guide
 
@@ -92,7 +87,7 @@ Place the required files in the input folder:
 3. **Hierarchy**:
 
    - Parent bookmarks contain a children array with their sub-bookmarks.
-   - Sub-bookmarks within a child (level 3 or deeper) are not currently supported.
+   - Sub-bookmarks within a child (level 3 or deeper) are not currently added.
 
 ### File Structure:
 
@@ -137,7 +132,72 @@ This is how the bookmarks will look in the PDF viewer:
 
 ![Bookmarks Preview](./assets/preview.png?raw=true)
 
+## Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/rohityadav-sas/PDF-Bookmarks-Creator.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd PDF-Bookmarks-Creator
+   ```
+
+3. Choose the implementation you want to use:
+
+   - For **Node.js**, see the [Node.js](#nodejs-implementation) section.
+   - For **Python**, see the [Python](#python-implementation) section.
+
+### Node.js Implementation
+
+1. Navigate to the nodejs directory:
+
+   ```sh
+   cd nodejs
+   ```
+
+2. Install the required dependencies:
+
+   ```sh
+   npm install
+   ```
+
+3. Prepare the configuration files as described in the [Usage](#usage) section.
+
+4. Run the program:
+
+   ```sh
+   npm start
+   ```
+
+### Python Implementation
+
+1. Navigate to the python directory:
+
+   ```sh
+   cd python
+   ```
+
+2. Install the required dependencies:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+3. Prepare the configuration files as described in the [Configuration](#configuration) section.
+
+4. Run the program:
+
+   ```sh
+   python main.py
+   ```
+
 ## Dependencies
+
+### Node.js Dependencies
 
 - **axios**: For making HTTP requests to the Sejda API.
 
@@ -146,6 +206,10 @@ This is how the bookmarks will look in the PDF viewer:
 - **tough-cookie**: To handle cookies for the Sejda API.
 
 - **pdf-lib**: For editing PDF metadata.
+
+### Python Dependencies
+
+- **PyPDF2**: For interacting with PDF files.
 
 ## License
 

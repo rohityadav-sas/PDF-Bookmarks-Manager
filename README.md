@@ -1,4 +1,4 @@
-## PDF-Bookmarks-Creator
+## PDF-Bookmarks-Manager
 
 A Node.js tool to edit PDF metadata and create bookmarks using Sejda API.
 
